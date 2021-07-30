@@ -58,7 +58,7 @@ def create_turtles(colors):
 
 def init_turtle():
     screen = turtle.Screen()
-    screen.bgcolor(0,0,0)
+    screen.bgcolor("White")
     screen.setup(WIDTH,HEIGHT)
     screen.title("Turtle Race")
     icon = tkinter.Image('photo', file = 'icon.png')
